@@ -1,156 +1,175 @@
 {
-  "directory": {
-    "fields": [
-      {
-        "id": "displayName",
-        "type": "text",
-        "name": "Display Name"
-      },
-      {
-        "id": "firstName",
-        "type": "text",
-        "name": "First Name"
-      },
-      {
-        "id": "lastName",
-        "type": "text",
-        "name": "Last Name"
-      },
-      {
-        "id": "jobTitle",
-        "type": "list",
-        "name": "Job Title"
-      },
-      {
-        "id": "department",
-        "type": "text",
-        "name": "Department"
-      },
-      {
-        "id": "email",
-        "type": "text",
-        "name": "Email"
-      }
-    ],
-    "employees": [
-      {
-        "id": 1001,
-        "displayName": "Sarah Johnson",
-        "firstName": "Sarah",
-        "lastName": "Johnson",
-        "jobTitle": "Senior Software Engineer",
-        "department": "Engineering",
-        "email": "sarah.johnson@company.com"
-      },
-      {
-        "id": 1002,
-        "displayName": "Michael Chen",
-        "firstName": "Michael",
-        "lastName": "Chen",
-        "jobTitle": "Product Manager",
-        "department": "Product",
-        "email": "michael.chen@company.com"
-      },
-      {
-        "id": 1003,
-        "displayName": "Emily Rodriguez",
-        "firstName": "Emily",
-        "lastName": "Rodriguez",
-        "jobTitle": "UX Designer",
-        "department": "Design",
-        "email": "emily.rodriguez@company.com"
-      },
-      {
-        "id": 1004,
-        "displayName": "James Wilson",
-        "firstName": "James",
-        "lastName": "Wilson",
-        "jobTitle": "DevOps Engineer",
-        "department": "Operations",
-        "email": "james.wilson@company.com"
-      },
-      {
-        "id": 1005,
-        "displayName": "Lisa Kim",
-        "firstName": "Lisa",
-        "lastName": "Kim",
-        "jobTitle": "Marketing Manager",
-        "department": "Marketing",
-        "email": "lisa.kim@company.com"
-      },
-      {
-        "id": 1006,
-        "displayName": "David Thompson",
-        "firstName": "David",
-        "lastName": "Thompson",
-        "jobTitle": "Sales Director",
-        "department": "Sales",
-        "email": "david.thompson@company.com"
-      },
-      {
-        "id": 1007,
-        "displayName": "Anna Martinez",
-        "firstName": "Anna",
-        "lastName": "Martinez",
-        "jobTitle": "HR Specialist",
-        "department": "Human Resources",
-        "email": "anna.martinez@company.com"
-      },
-      {
-        "id": 1008,
-        "displayName": "Robert Taylor",
-        "firstName": "Robert",
-        "lastName": "Taylor",
-        "jobTitle": "Financial Analyst",
-        "department": "Finance",
-        "email": "robert.taylor@company.com"
-      },
-      {
-        "id": 1009,
-        "displayName": "Michelle Lee",
-        "firstName": "Michelle",
-        "lastName": "Lee",
-        "jobTitle": "Project Manager",
-        "department": "Project Management",
-        "email": "michelle.lee@company.com"
-      },
-      {
-        "id": 1010,
-        "displayName": "Thomas Anderson",
-        "firstName": "Thomas",
-        "lastName": "Anderson",
-        "jobTitle": "System Administrator",
-        "department": "IT",
-        "email": "thomas.anderson@company.com"
-      }
-    ]
-  },
-  "employees": [
-    {
-      "id": 1001,
-      "firstName": "Sarah",
-      "lastName": "Johnson",
-      "jobTitle": "Senior Software Engineer",
-      "department": "Engineering",
-      "email": "sarah.johnson@company.com",
-      "hireDate": "2020-03-15",
-      "status": "Active",
-      "location": "New York",
-      "manager": "John Smith",
-      "division": "Technology"
-    },
-    {
-      "id": 1002,
-      "firstName": "Michael",
-      "lastName": "Chen",
-      "jobTitle": "Product Manager",
-      "department": "Product",
-      "email": "michael.chen@company.com",
-      "hireDate": "2019-06-01",
-      "status": "Active",
-      "location": "San Francisco",
-      "manager": "Jane Doe",
-      "division": "Product"
+  "employees": {
+    "directory": {
+      "fields": [
+        {
+          "id": "displayName",
+          "type": "text",
+          "name": "Display Name"
+        },
+        {
+          "id": "firstName",
+          "type": "text",
+          "name": "First Name"
+        },
+        {
+          "id": "lastName",
+          "type": "text",
+          "name": "Last Name"
+        },
+        {
+          "id": "gender",
+          "type": "text",
+          "name": "Gender"
+        },
+        {
+          "id": "jobTitle",
+          "type": "list",
+          "name": "Job Title"
+        },
+        {
+          "id": "workPhone",
+          "type": "text",
+          "name": "Work Phone"
+        },
+        {
+          "id": "workPhoneExtension",
+          "type": "text",
+          "name": "Work Extension"
+        },
+        {
+          "id": "skypeUsername",
+          "type": "text",
+          "name": "Skype Username"
+        },
+        {
+          "id": "facebook",
+          "type": "text",
+          "name": "Facebook URL"
+        }
+      ],
+      "employees": [
+        {
+          "id": 101,
+          "displayName": "Sarah Johnson",
+          "firstName": "Sarah",
+          "lastName": "Johnson",
+          "gender": "Female",
+          "jobTitle": "Senior Software Engineer",
+          "workPhone": "555-123-4567",
+          "workPhoneExtension": "101",
+          "skypeUsername": "sarah.johnson",
+          "facebook": "sarahjohnson"
+        },
+        {
+          "id": 102,
+          "displayName": "Michael Chen",
+          "firstName": "Michael",
+          "lastName": "Chen",
+          "gender": "Male",
+          "jobTitle": "Product Manager",
+          "workPhone": "555-123-4568",
+          "workPhoneExtension": "102",
+          "skypeUsername": "michael.chen",
+          "facebook": "michaelchen"
+        },
+        {
+          "id": 103,
+          "displayName": "Emily Rodriguez",
+          "firstName": "Emily",
+          "lastName": "Rodriguez",
+          "gender": "Female",
+          "jobTitle": "UX Designer",
+          "workPhone": "555-123-4569",
+          "workPhoneExtension": "103",
+          "skypeUsername": "emily.rodriguez",
+          "facebook": "emilyrodriguez"
+        },
+        {
+          "id": 104,
+          "displayName": "James Wilson",
+          "firstName": "James",
+          "lastName": "Wilson",
+          "gender": "Male",
+          "jobTitle": "DevOps Engineer",
+          "workPhone": "555-123-4570",
+          "workPhoneExtension": "104",
+          "skypeUsername": "james.wilson",
+          "facebook": "jameswilson"
+        },
+        {
+          "id": 105,
+          "displayName": "Lisa Kim",
+          "firstName": "Lisa",
+          "lastName": "Kim",
+          "gender": "Female",
+          "jobTitle": "Marketing Manager",
+          "workPhone": "555-123-4571",
+          "workPhoneExtension": "105",
+          "skypeUsername": "lisa.kim",
+          "facebook": "lisakim"
+        },
+        {
+          "id": 106,
+          "displayName": "David Thompson",
+          "firstName": "David",
+          "lastName": "Thompson",
+          "gender": "Male",
+          "jobTitle": "Sales Director",
+          "workPhone": "555-123-4572",
+          "workPhoneExtension": "106",
+          "skypeUsername": "david.thompson",
+          "facebook": "davidthompson"
+        },
+        {
+          "id": 107,
+          "displayName": "Anna Martinez",
+          "firstName": "Anna",
+          "lastName": "Martinez",
+          "gender": "Female",
+          "jobTitle": "HR Specialist",
+          "workPhone": "555-123-4573",
+          "workPhoneExtension": "107",
+          "skypeUsername": "anna.martinez",
+          "facebook": "annamartinez"
+        },
+        {
+          "id": 108,
+          "displayName": "Robert Taylor",
+          "firstName": "Robert",
+          "lastName": "Taylor",
+          "gender": "Male",
+          "jobTitle": "Financial Analyst",
+          "workPhone": "555-123-4574",
+          "workPhoneExtension": "108",
+          "skypeUsername": "robert.taylor",
+          "facebook": "roberttaylor"
+        },
+        {
+          "id": 109,
+          "displayName": "Michelle Lee",
+          "firstName": "Michelle",
+          "lastName": "Lee",
+          "gender": "Female",
+          "jobTitle": "Project Manager",
+          "workPhone": "555-123-4575",
+          "workPhoneExtension": "109",
+          "skypeUsername": "michelle.lee",
+          "facebook": "michellelee"
+        },
+        {
+          "id": 110,
+          "displayName": "Thomas Anderson",
+          "firstName": "Thomas",
+          "lastName": "Anderson",
+          "gender": "Male",
+          "jobTitle": "System Administrator",
+          "workPhone": "555-123-4576",
+          "workPhoneExtension": "110",
+          "skypeUsername": "thomas.anderson",
+          "facebook": "thomasanderson"
+        }
+      ]
     }
-  ]
+  }
 }
